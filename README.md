@@ -16,6 +16,9 @@ DepartmentID	DepartmentName
 1				HR
 2				IT
 
+<img width="319" alt="image" src="https://github.com/user-attachments/assets/79774fe7-e467-4f2a-a50c-fbeb4aae6b6e">
+
+
 SELECT e.EmployeeID, e.Name, d.DepartmentName
 FROM Employees e
 LEFT JOIN Departments d ON e.DepartmentID = d.DepartmentID;
