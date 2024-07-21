@@ -1,16 +1,16 @@
 # SQL-JOINS-ALL-ABOUT-JOINS-
 SQL JOINS (ALL ABOUT JOINS)
 
-Handling NULL Values: When dealing with joins, NULL values can lead to missing data if not handled correctly. Using outer joins can help
+**Handling NULL Values:** When dealing with joins, NULL values can lead to missing data if not handled correctly. Using outer joins can help
 
-Employees Table:
+**Employees Table:**
 
 EmployeeID	Name	DepartmentID
 1			Alice	1
 2			Bob		2
 3			Charlie	NULL
 
-Departments Table:
+**Departments Table:**
 
 DepartmentID	DepartmentName
 1				HR
@@ -20,7 +20,7 @@ SELECT e.EmployeeID, e.Name, d.DepartmentName
 FROM Employees e
 LEFT JOIN Departments d ON e.DepartmentID = d.DepartmentID;
 
-Result:
+**Result:**
 
 EmployeeID	Name	DepartmentName
 1			Alice	HR
