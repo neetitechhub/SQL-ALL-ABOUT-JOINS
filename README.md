@@ -1,5 +1,5 @@
 # SQL-JOINS-ALL-ABOUT-JOINS
-SQL JOINS (ALL ABOUT JOINS)
+SQL JOINS (ALL ABOUT JOINS) : 
 
 1. Inner Join: Returns only the rows that have matching values in both tables.
 2. Left (Outer) Join: A left join returns all rows from the left table, and the matched rows from the right table. If no match is found, NULL values are returned for columns from the right table.
